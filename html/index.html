@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="dist/css/jquery.fullPage.css">
+	<style>
+	.s1{background: #123}
+	.s2{background: #456}
+	.s3{background: #789}
+	.s4{background: #abc}
+	</style>
+</head>
+<body>
+<div class="main">
+	<div class="section s1">第1屏</div>
+	<div class="section s2">第2屏</div>
+	<div class="section s3">第3屏</div>
+	<div class="section s4">第4屏</div>
+</div>
+
+<script src="dist/js/jquery-1.8.3.min.js"></script>
+<script src="dist/js/jquery.fullpage.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('.main').fullpage();
+	})
+</script>	
+</body>
+</html>
